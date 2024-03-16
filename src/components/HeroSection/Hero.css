@@ -1,0 +1,184 @@
+.heroContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.heroContainer::after,
+.heroContainer::before {
+    content: "";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+
+.heroContainer::after {
+    top: -3rem;
+    left: -5rem;
+}
+
+.heroContainer::before {
+    bottom: 2rem;
+    right: 0rem;
+}
+
+.heroContent {
+    flex: 1;
+}
+
+.heroContent h2 {
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.heroContent p {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.heroImg {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem 0 0;
+}
+
+.heroImg>div {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.heroImg>div>img {
+    width: 25rem;
+    transition: all 0.3s ease;
+}
+
+.techIcon {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6852ba;
+}
+
+.techIcon img {
+    width: 3rem;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.heroImg>div>img:hover,
+.techIcon img:hover {
+    transform: translateY(-0.5rem);
+}
+
+@media(max-width:1025px) {
+    .heroContent h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .heroContent p {
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+
+    .heroImg>div>img {
+        width: 20rem;
+    }
+
+    .techIcon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .techIcon img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .heroContainer {
+        flex-direction: column;
+    }
+
+    .heroImg {
+        margin: 2rem 0;
+    }
+
+    .heroContainer h2 {
+        margin-top: 3rem;
+    }
+
+    .heroContent h2 {
+        width: auto;
+        text-align: center;
+    }
+
+    .heroContainer::after,
+    .heroContainer::before {
+        content: "";
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .heroContainer::after {
+        top: 0;
+        left: 0;
+    }
+
+    .heroContainer::before {
+        bottom: 2rem;
+        right: 0;
+    }
+
+
+}
+
+@media(max-width:660px) {
+    .heroContent h2 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    .heroContent p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+
+    .heroImg {
+        gap: 1rem;
+    }
+
+    .heroImg > div{
+        gap: 1rem;
+    }
+
+    .heroImg > div > img{
+        width: 16rem;
+    }
+
+    .techIcon{
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+
+    .techIcon img{
+        width: 2rem;
+    }
+}

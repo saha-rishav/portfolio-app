@@ -1,11 +1,18 @@
 
 import './App.css';
+import Hero from './components/HeroSection/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
-    <div className="App">
-      hi
-    </div>
+    <>
+      <Navbar />
+      <div className="container">
+        <Hero />
+        <Skills />
+      </div>
+    </>
   );
 }
 
