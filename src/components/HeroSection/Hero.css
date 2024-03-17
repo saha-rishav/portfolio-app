@@ -60,7 +60,8 @@
 }
 
 .heroImg>div>img {
-    width: 25rem;
+    width: 20rem;
+    border-radius: 3rem;
     transition: all 0.3s ease;
 }
 
@@ -180,5 +181,6 @@
 
     .techIcon img{
         width: 2rem;
+        height: 2rem;
     }
 }

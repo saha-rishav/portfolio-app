@@ -53,3 +53,37 @@ export const Experience = [
         ],
     }
 ]
+
+export const skills = [
+    {
+        title: "Frontend",
+        skills: [
+            {
+                name: 'HTML',
+                image:""
+            },
+            {
+                name: 'HTML',
+                image:""
+            },
+            {
+                name: 'HTML',
+                image:""
+            },
+        ]
+    },
+    {
+        title: "Tools",
+        skills: [
+            {
+                name : "VS Code"
+            },
+            {
+                name : "VS Code"
+            },
+            {
+                name : "VS Code"
+            },
+        ]
+    }
+]

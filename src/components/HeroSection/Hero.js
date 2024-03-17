@@ -1,5 +1,10 @@
 import React from 'react'
-import './Hero.css'
+import './Hero.css';
+import ReactImg from '../../assets/React.png';
+import HTMLImg from '../../assets/HTML.png'
+import CSSImg from '../../assets/CSS.png'
+import JSImg from '../../assets/JavaScript.png'
+import heroImg from '../../assets/heroImg.jpg'
 
 const Hero = () => {
   return (
@@ -11,19 +16,19 @@ const Hero = () => {
           <div className="heroImg">
               <div>
                   <div className="techIcon">
-                      <img src="" alt="" />
+                      <img src={ReactImg} alt={ReactImg} />
                   </div>
-                  <img src="" alt="" />
+                  <img src={heroImg} alt={heroImg} />
               </div>
               <div>
                   <div className="techIcon">
-                      <img src="" alt="" />
+                      <img src={HTMLImg} alt={HTMLImg} />
                   </div>
                   <div className="techIcon">
-                      <img src="" alt="" />
+                      <img src={CSSImg} alt={CSSImg} />
                   </div>
                   <div className="techIcon">
-                      <img src="" alt="" />
+                      <img src={JSImg} alt={JSImg} />
                   </div>
               </div>
           </div>

@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import './Skills.css'
 import SkillCard from './SkillsCard/SkillCard'
-import { SkillData } from '../../utils/data'
+import { SkillData, skills } from '../../utils/data'
 import SkillsCardInfo from './SkillsCardInfo/SkillsCardInfo'
 
 const Skills = () => {
@@ -14,8 +15,24 @@ const Skills = () => {
 
     return (
         <section className='skillsContainer'>
-            <h5>Technical Proficiency</h5>
+            <h5>Technical Skills</h5>
             <div className="skillsContent">
+                {/* <div className="skills">
+                    {skills.map((item) => (
+                            <div className="skillsCard">
+                                <h4>{item.title}</h4>
+                                <div className="skillsInfo">
+                                    {item.skills.map((skill) => (
+                                        <div className="skillItem">
+                                            <img src={skill.image} alt='' />
+                                            <h4>{skill.name}</h4>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div> */}
                 <div className="skills">
                     {
                         SkillData.map((item) => (
@@ -35,6 +52,7 @@ const Skills = () => {
                         skills={selectedSkill.skills}
                     />
                 </div>
+
             </div>
         </section>
     )
