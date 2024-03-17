@@ -18,7 +18,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                             <a className='menu_item'>Skills</a>
                         </li>
                         <li>
-                            <a className='menu_item'>Experience</a>
+                            <a className='menu_item'>Work Experience</a>
                         </li>
                         <li>
                             <a className='menu_item'>Contact Me</a>
