@@ -38,7 +38,8 @@ export const Experience = [
         responsibilities: [
             "Developed and executed front-end development strategies, resulting in a 15% increase in website performance by implementing optimization techniques such as code minification and troubleshooting issues using browser developer tools.",
             "Assisted in the development and maintenance of front-end web applications, resulting in a positive impact on the company's overall performance.",
-            "Collaborated with UI/UX designers to translate wireframes into responsive and interactive web application"
+            "Collaborated with UI/UX designers to translate wireframes into responsive and interactive web application",
+            "Implemented plugins to extend application functionality.",
         ],
     },
     {
@@ -47,9 +48,8 @@ export const Experience = [
         responsibilities: [
             "Developed and executed front-end development strategies, resulting in a 15% increase in website performance.",
             "Worked closely with the design team to create pixel-perfect, cross-browser-compatible web pages.",
-            "Participated in daily stand-up meetings & collaborated with senior developers to resolve  issues and implement new features.",
-            "Translate wireframes into interactive, dynamic code.",
-            "Implemented plugins to extend application functionality."
+            "Participated in daily stand-up meetings & collaborated with senior developers to resolve  issues and implement new features.",           
+            "Gained hands-on experience with version control systems, specifically Git, in a collaborative development environment."
         ],
     }
 ]
