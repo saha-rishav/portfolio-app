@@ -11,6 +11,8 @@ const Hero = () => {
       <section className='heroContainer' id='home'>
           <div className="heroContent">
               <h2>Building Digital Experiences That Inspire</h2>
+              {/* <h2>Hi, I am <br /> Rishav Saha</h2>
+              <h4>I am a <span className='typewriter'>Frontend Developer</span></h4> */}
               <p>Passionate Frontend Developer | Transforming Ideas into Seamless & Visually Stunning Web Solutions</p>
           </div>
           <div className="heroImg">

@@ -9,16 +9,21 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                 className={`mobileMenu ${isOpen ? "active" : ""}`}
                 onClick={toggleMenu}>
                 <div className="mobileMenuContainer">
-                    <h3>Portfolio</h3>
+                    <a href='#'>
+                        <h1>Portfolio.</h1>
+                    </a>
                     <ul>
                         <li>
-                            <a href='#home' className='menu_item'>Home</a>
+                            <a href='#' className='menu_item'>Home</a>
                         </li>
                         <li>
                             <a href='#skills' className='menu_item'>Skills</a>
                         </li>
                         <li>
                             <a href='#experience' className='menu_item'>Work Experience</a>
+                        </li>
+                        <li>
+                            <a href='#projects' className='menu_item'>Projects</a>
                         </li>
                         <li>
                             <a href='#contact' className='menu_item'>Contact Me</a>
