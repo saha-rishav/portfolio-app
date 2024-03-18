@@ -1,5 +1,5 @@
 .skillsContainer {
-    margin: 4rem 0;
+    margin: 2rem 0;
     position: relative;
 }
 
@@ -29,7 +29,7 @@
 .skillsContainer h5 {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 }
 
 .skillsContent {
@@ -124,7 +124,7 @@
 
     .skillsContainer h5 {
         font-size: 1.3rem;
-        margin-bottom: 2rem;
+        margin: 2rem 0;
     }
 
     .skillsContainer::after,
@@ -136,12 +136,6 @@
     .skillItem {
         font-size: 14px;
         padding: 8px 12px;
-    }
-}
-
-@media(max-width : 600px) {
-    .skillsContainer {
-        padding: 0;
     }
 }
 
