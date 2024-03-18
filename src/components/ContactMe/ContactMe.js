@@ -2,7 +2,7 @@ import React from 'react'
 import './ContactMe.css'
 import ContactInfoCar from './ContactInfoCard/ContactInfoCar';
 import ContactForm from './ContactForm/ContactForm';
-import MailImg from '../../assets/mail.png'
+import MailImg from '../../assets/mail_white.png'
 import GitImg from '../../assets/github.png'
 
 

@@ -1,3 +1,18 @@
+import ReactIcon from '../assets/React.png'
+import HTMLIcon from '../assets/HTML.png'
+import CSSIcon from '../assets/CSS.png'
+import JSIcon from '../assets/JavaScript.png'
+import BootStrapIcon from '../assets/bootstrap.png'
+import TailwindIcon from '../assets/tailwind.png'
+import ReduxIcon from '../assets/Redux.png'
+import ViteIcon from '../assets/vite.png'
+import VSCodeIcon from '../assets/vscode.png'
+import GithubIcon from '../assets/github.png'
+import GitIcon from '../assets/git.png'
+import SublimeIcon from '../assets/sublime.png'
+import SCSSIcon from '../assets/scss.png'
+import SkypeIcon from '../assets/skype.png'
+
 export const SkillData = [
     {
         title: "Frontend",
@@ -16,7 +31,6 @@ export const SkillData = [
             { skills: "VS Code", percentage: "75%" },
             { skills: "Github", percentage: "70%" },
             { skills: "Responsive Design", percentage: "75%" },
-            // { skills: "React JS", percentage: "75%" },
         ]
     },
     {
@@ -26,7 +40,6 @@ export const SkillData = [
             { skills: "Collaboration", percentage: "75%" },
             { skills: "Attention to Details", percentage: "75%" }
             // { skills: "Responsive Design", percentage: "75%" },
-            // { skills: "React JS", percentage: "75%" },
         ]
     },
 ];
@@ -48,7 +61,7 @@ export const Experience = [
         responsibilities: [
             "Developed and executed front-end development strategies, resulting in a 15% increase in website performance.",
             "Worked closely with the design team to create pixel-perfect, cross-browser-compatible web pages.",
-            "Participated in daily stand-up meetings & collaborated with senior developers to resolve  issues and implement new features.",           
+            "Participated in daily stand-up meetings & collaborated with senior developers to resolve  issues and implement new features.",
             "Gained hands-on experience with version control systems, specifically Git, in a collaborative development environment."
         ],
     }
@@ -60,29 +73,64 @@ export const skills = [
         skills: [
             {
                 name: 'HTML',
-                image:""
+                image: HTMLIcon
             },
             {
-                name: 'HTML',
-                image:""
+                name: 'CSS',
+                image: CSSIcon
             },
             {
-                name: 'HTML',
-                image:""
+                name: 'JavaScript',
+                image: JSIcon
+            },
+            {
+                name: 'Bootstrap',
+                image: BootStrapIcon
+            },
+            {
+                name: 'Tailwind CSS',
+                image: TailwindIcon
+            },
+            {
+                name: 'SCSS',
+                image: SCSSIcon
+            },
+            {
+                name: 'React JS',
+                image: ReactIcon
+            },
+            {
+                name: 'Redux',
+                image: ReduxIcon
+            },
+            {
+                name: 'Vite JS',
+                image: ViteIcon
             },
         ]
     },
     {
-        title: "Tools",
+        title: "Softwares",
         skills: [
             {
-                name : "VS Code"
+                name: "Github",
+                image: GithubIcon
             },
             {
-                name : "VS Code"
+                name: "Git",
+                image: GitIcon
             },
             {
-                name : "VS Code"
+                name: "VS Code",
+                image: VSCodeIcon
+            },
+            {
+                name: "Sublime",
+                image: SublimeIcon
+            },
+            {
+                name: "Skype",
+                image: SkypeIcon
             },
         ]
     }

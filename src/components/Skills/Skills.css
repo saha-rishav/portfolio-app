@@ -29,7 +29,7 @@
 .skillsContainer h5 {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
 }
 
 .skillsContent {
@@ -49,27 +49,31 @@
     flex: 1;
 }
 
-/* .skillsCard {
+.skillsCard {
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
     padding: 2.5rem;
     text-align: center;
     background: rgba(22, 17, 47, 0.398);
     backdrop-filter: blurr(1rem);
-    cursor: pointer;
+    cursor: default;
     position: relative;
     transition: all .3s ease;
 }
 
-.skillsInfo{
+.skillsCard h3 {
+    margin-bottom: 1rem;
+}
+
+.skillsInfo {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 20px;
     margin-bottom: 20px;
 }
 
-.skillItem{
+.skillItem {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -79,7 +83,13 @@
     border: 1px solid #854ce6;
     padding: 12px 16px;
     font-weight: 400;
-} */
+}
+
+.skillItem img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
 
 @media(max-width : 1025px) {
     .skills {
@@ -90,43 +100,54 @@
     .skillsContent {
         gap: 2rem;
     }
+
+    .skillsCard {
+        padding: 1rem;
+    }
 }
 
-@media (max-width : 768px){
-    .skillsContent{
+@media (max-width : 768px) {
+    .skills {
+        grid-template-columns: 1fr;
+
+    }
+
+    .skillsContent {
         flex-direction: column-reverse;
         gap: 3rem;
     }
 
-    .skills, .skillsInfo{
+    .skills,
+    .skillsInfo {
         width: 100%;
     }
-    
-    .skillsContainer h5{
+
+    .skillsContainer h5 {
         font-size: 1.3rem;
         margin-bottom: 2rem;
     }
 
     .skillsContainer::after,
-    .skillsContainer::before{
+    .skillsContainer::before {
         width: 18rem;
         height: 18rem;
     }
-    /* .skillItem{
+
+    .skillItem {
         font-size: 14px;
         padding: 8px 12px;
-    } */
+    }
 }
 
-@media(max-width : 600px){
-    .skillsContainer{
+@media(max-width : 600px) {
+    .skillsContainer {
         padding: 0;
     }
 }
 
-/* @media(max-width :500px){
-    .skillItem{
+@media(max-width :500px) {
+    .skillItem {
         font-size: 12px;
         padding: 6px 8px;
     }
-} */
+}

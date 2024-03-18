@@ -1,26 +1,26 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import './Skills.css'
-import SkillCard from './SkillsCard/SkillCard'
-import { SkillData, skills } from '../../utils/data'
-import SkillsCardInfo from './SkillsCardInfo/SkillsCardInfo'
+// import SkillCard from './SkillsCard/SkillCard'
+import { skills } from '../../utils/data'
+// import SkillsCardInfo from './SkillsCardInfo/SkillsCardInfo'
 
 const Skills = () => {
 
-    const [selectedSkill, setSelectedSkill] = useState(SkillData[0]);
+    // const [selectedSkill, setSelectedSkill] = useState(SkillData[0]);
 
-    const handleSelectSkill = (data) => {
-        setSelectedSkill(data);
-    }
+    // const handleSelectSkill = (data) => {
+    //     setSelectedSkill(data);
+    // }
 
     return (
         <section className='skillsContainer'>
             <h5>Technical Skills</h5>
             <div className="skillsContent">
-                {/* <div className="skills">
+                <div className="skills">
                     {skills.map((item) => (
                             <div className="skillsCard">
-                                <h4>{item.title}</h4>
+                                <h3>{item.title}</h3>
                                 <div className="skillsInfo">
                                     {item.skills.map((skill) => (
                                         <div className="skillItem">
@@ -32,8 +32,8 @@ const Skills = () => {
                             </div>
                         ))
                     }
-                </div> */}
-                <div className="skills">
+                </div>
+                {/* <div className="skills">
                     {
                         SkillData.map((item) => (
                             <SkillCard
@@ -51,7 +51,7 @@ const Skills = () => {
                         heading={selectedSkill.title}
                         skills={selectedSkill.skills}
                     />
-                </div>
+                </div> */}
 
             </div>
         </section>
