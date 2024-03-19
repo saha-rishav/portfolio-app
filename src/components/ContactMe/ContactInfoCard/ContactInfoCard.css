@@ -27,7 +27,9 @@
     object-fit: contain;
 }
 
-.contactDetailsCard p{
-    font-size: 0.9rem;
-    font-weight: 400;
+.contactDetailsCard a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
 }

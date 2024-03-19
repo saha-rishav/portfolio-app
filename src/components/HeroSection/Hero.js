@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './Hero.css';
 import ReactImg from '../../assets/React.png';
@@ -5,6 +7,7 @@ import HTMLImg from '../../assets/HTML.png'
 import CSSImg from '../../assets/CSS.png'
 import JSImg from '../../assets/JavaScript.png'
 import heroImg from '../../assets/heroImg.jpg'
+import githubIcon from '../../assets/github.png'
 import TypewriterComponent from 'typewriter-effect';
 
 const Hero = () => {
@@ -24,7 +27,11 @@ const Hero = () => {
                     </span>
                 </h4>
                 <p>Passionate Frontend Developer | Transforming Ideas into Seamless & Visually Stunning Web Solutions</p>
-                
+                <a href="https://github.com/saha-rishav" target='_blank' className='gitProfileBtn'>
+                    <img src={githubIcon} alt="" />
+                    <h3>Github Profile</h3>
+                </a>
+
             </div>
             <div className="heroImg">
                 <div>

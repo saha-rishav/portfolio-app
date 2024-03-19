@@ -37,8 +37,3 @@
     /* margin-left: -2rem; */
 }
 
-@media(max-width:769){
-    .mobileMenu{
-        display: block;
-    }
-}

@@ -18,12 +18,12 @@ const Skills = () => {
             <h5>Technical Skills</h5>
             <div className="skillsContent">
                 <div className="skills">
-                    {skills.map((item) => (
-                            <div className="skillsCard">
+                    {skills.map((item,index) => (
+                            <div className="skillsCard" key={index}>
                                 <h3>{item.title}</h3>
                                 <div className="skillsInfo">
-                                    {item.skills.map((skill) => (
-                                        <div className="skillItem">
+                                    {item.skills.map((skill, skillIndex) => (
+                                        <div className="skillItem" key={skillIndex}>
                                             <img src={skill.image} alt='' />
                                             <h4>{skill.name}</h4>
                                         </div>

@@ -110,7 +110,7 @@ export const skills = [
         ]
     },
     {
-        title: "Softwares",
+        title: "Tools",
         skills: [
             {
                 name: "Github",

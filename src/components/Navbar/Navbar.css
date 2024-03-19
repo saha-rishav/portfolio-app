@@ -118,8 +118,13 @@
         padding: 0 2rem;
     }
 }
+@media(max-width : 1299px){
+    .nav_content li {
+        margin: 0 1.2rem;
+    }
+}
 
-@media(max-width: 769px) {
+@media(max-width: 954px) {
     .menuBtn {
         display: block;
     }

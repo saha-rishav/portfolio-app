@@ -3,7 +3,7 @@ import './ContactMe.css'
 import ContactInfoCar from './ContactInfoCard/ContactInfoCar';
 import ContactForm from './ContactForm/ContactForm';
 import MailImg from '../../assets/mail_white.png'
-import GitImg from '../../assets/github.png'
+import LinkedInIcon from '../../assets/linkedin-white.png'
 
 
 const ContactMe = () => {
@@ -12,8 +12,8 @@ const ContactMe = () => {
       <h5>Contact Me</h5>
       <div className="contactContent">
         <div style={{ flex: 1 }}>
-          <ContactInfoCar iconUrl={MailImg} text="rishavsaha199@gmail.com" />
-          <ContactInfoCar iconUrl={GitImg} text="https://github.com/saha-rishav"/>
+          <ContactInfoCar iconUrl={MailImg} text="Email: rishavsaha199@gmail.com" href="mailto:rishavsaha199@gmail.com"/>
+          <ContactInfoCar iconUrl={LinkedInIcon} text="Linkedin : rishav--saha" href="https://www.linkedin.com/in/rishav--saha/"/>
         </div>
         <div style={{ flex: 1 }}>
           <ContactForm />
