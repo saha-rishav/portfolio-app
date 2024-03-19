@@ -15,11 +15,11 @@ const Hero = () => {
         <section className='heroContainer' id='home'>
             <div className="heroContent">
                 <h2>Hi, I am <br /> Rishav Saha</h2>
-                <h4>A
+                <h4>
                     <span className='typewriter'>
                         <TypewriterComponent
                             options={{
-                                strings: ["Frontend Developer"],
+                                strings: ["A Frontend Developer"],
                                 autoStart: true,
                                 loop: true
                             }}>
