@@ -13,6 +13,14 @@ import SublimeIcon from '../assets/sublime.png'
 import SCSSIcon from '../assets/scss.png'
 import SkypeIcon from '../assets/skype.png'
 
+import Sunsecurity from '../assets/project_image/sunsecuritypng.png'
+import AssamBengal from '../assets/project_image/assambengal.png'
+import InfraSmartz from '../assets/project_image/infrasmartz.png'
+import IGO from '../assets/project_image/igo.png'
+import WeatherApp from '../assets/project_image/weatherApp.png'
+import Portfolio from '../assets/project_image/portfolio.png'
+import Trinity from '../assets/project_image/trinity.png'
+
 export const skills = [
     {
         title: "Frontend",
@@ -82,7 +90,7 @@ export const skills = [
     }
 ]
 
-export const Experience = [
+export const experience = [
     {
         title: "UI Developer at RateperSQFT(KDM Proptech Pvt. Ltd.)",
         date: "April 2023 - Present",
@@ -105,3 +113,47 @@ export const Experience = [
     }
 ]
 
+export const projects = [
+    {
+        image: WeatherApp,
+        title: "Weather App",
+        desc: "ipsum",
+        liveView: "https://trinity.ratepersqft.com/",
+    },
+    {
+        image: Portfolio,
+        title: "Portfolio 2",
+        desc: "Personal portfolio website using React JS",
+        liveView: "",
+    },
+    {
+        image: Trinity,
+        title: "Trinity Business Park",
+        desc: "ipsum",
+        liveView: "https://trinity.ratepersqft.com/",
+    },
+    {
+        image: Sunsecurity,
+        title: "Security Security Sevices",
+        desc: "Website for a security service agency in Guwahati",
+        liveView: "https://sunsecurityservices.org/",
+    },
+    {
+        image: AssamBengal,
+        title: "Assam bengal Catering",
+        desc: "Website for a Catering Service Provider in Guwahati",
+        liveView: "",
+    },
+    {
+        image: InfraSmartz,
+        title: "Infrasmartz",
+        desc: "Website for a Company based in USA that basically provides IT Support.",
+        liveView: "",
+    },
+    {
+        image: IGO,
+        title: "IGO",
+        desc: "Website for a Two-Wheeler Bike Service like Rapido",
+        liveView: "",
+    },    
+]

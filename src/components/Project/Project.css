@@ -1,10 +1,75 @@
-.projectsContainer{
+.projectsContainer {
     margin: 2rem 0;
     position: relative;
 }
 
-.projectsContainer h5{
+.projectsContainer h5 {
     font-size: 1.5rem;
     font-weight: 600;
     margin: 3.5rem 0 2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.projectsCard {
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 1.5rem;
+    background: rgba(22, 17, 47, 0.398);
+    backdrop-filter: blurr(1rem);
+    position: relative;
+    transition: all .3s ease;
+}
+
+.projectsCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projectsCard h3 {
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin: 0.7rem 0;
+}
+
+.projectsBtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projectsBtn .btn {
+    font-weight: 400;
+    padding: 9px 18px;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.projectsBtn .btn:hover {
+    background: #000;
+    color: #a993fe;
+    border: 1px solid #854ce6;
+    outline: 1px solid #a993fe;
+}
+
+@media(max-width : 1025px){
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width : 600px){
+    .projects{
+        grid-template-columns: 1fr;
+    }
 }

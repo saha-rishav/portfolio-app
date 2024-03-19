@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './WorkExperience.css';
-import { Experience } from '../../utils/data';
+import { experience } from '../../utils/data';
 import ExperienceCard from './ExperienceCard/ExperienceCard';
 import Slider from 'react-slick';
 import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight, } from "react-icons/md";
@@ -47,7 +47,7 @@ const WorkExperience = () => {
 
                 <Slider ref={sliderRef} {...settings}>
                     {
-                        Experience.map((item) => (
+                        experience.map((item) => (
                             <ExperienceCard key={item.title} details={item} />
                         ))
                     }
