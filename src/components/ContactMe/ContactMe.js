@@ -13,7 +13,7 @@ const ContactMe = () => {
       <div className="contactContent">
         <div style={{ flex: 1 }}>
           <ContactInfoCar iconUrl={MailImg} text="Email: rishavsaha199@gmail.com" href="mailto:rishavsaha199@gmail.com"/>
-          <ContactInfoCar iconUrl={LinkedInIcon} text="Linkedin : rishav--saha" href="https://www.linkedin.com/in/rishav--saha/"/>
+          <ContactInfoCar iconUrl={LinkedInIcon} text="Linkedin : linkedin.com/in/rishav--saha" href="https://www.linkedin.com/in/rishav--saha/"/>
         </div>
         <div style={{ flex: 1 }}>
           <ContactForm />
