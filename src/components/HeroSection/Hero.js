@@ -15,7 +15,7 @@ const Hero = () => {
         <section className='heroContainer' id='home'>
             <div className="heroContent">
                 <h2>Hi, I am <br /> Rishav Saha</h2>
-                <h4>I am a
+                <h4>A
                     <span className='typewriter'>
                         <TypewriterComponent
                             options={{
@@ -26,7 +26,8 @@ const Hero = () => {
                         </TypewriterComponent>
                     </span>
                 </h4>
-                <p>Passionate Frontend Developer | Transforming Ideas into Seamless & Visually Stunning Web Solutions</p>
+                <p>With over 2+ years of experience in designing, developing, and maintaining frontend web applications using modern frameworks like <b>React JS</b>, I am actively seeking new opportunities and challenges to further expand my skill set.</p>
+                {/* <p>Passionate Frontend Developer | Transforming Ideas into Seamless & Visually Stunning Web Solutions</p> */}
                 <a href="https://github.com/saha-rishav" target='_blank' className='gitProfileBtn'>
                     <img src={githubIcon} alt="" />
                     <h3>Github Profile</h3>

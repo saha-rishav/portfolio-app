@@ -20,6 +20,8 @@ import IGO from '../assets/project_image/igo.png'
 import WeatherApp from '../assets/project_image/weatherApp.png'
 import Portfolio from '../assets/project_image/portfolio.png'
 import Trinity from '../assets/project_image/trinity.png'
+import Edubin from '../assets/project_image/edubin.png'
+import Ratepersqft from '../assets/project_image/ratepersqft.png'
 
 export const skills = [
     {
@@ -115,22 +117,34 @@ export const experience = [
 
 export const projects = [
     {
-        image: WeatherApp,
-        title: "Weather App",
-        desc: "ipsum",
-        liveView: "https://weather-app-rouge-phi.vercel.app/",
-    },
-    {
-        image: Portfolio,
-        title: "Portfolio 2",
-        desc: "Personal portfolio website using React JS",
-        liveView: "https://rishavsaha.netlify.app/",
+        image: Ratepersqft,
+        title: "RateperSQFT",
+        desc: "",
+        liveView: "https://ratepersqft.com",
     },
     {
         image: Trinity,
         title: "Trinity Business Park",
         desc: "ipsum",
         liveView: "https://trinity.ratepersqft.com/",
+    },
+    {
+        image: WeatherApp,
+        title: "Weather App",
+        desc: "Live Weather checking web-application",
+        liveView: "https://weather-app-rouge-phi.vercel.app/",
+    },
+    {
+        image: Portfolio,
+        title: "Portfolio 2",
+        desc: "Multiple Page portfolio website",
+        liveView: "https://rishavsaha.netlify.app/",
+    },
+    {
+        image: Edubin,
+        title: "EDUBIN",
+        desc: "ipsum",
+        liveView: "https://edubin-mu.vercel.app/",
     },
     {
         image: Sunsecurity,
@@ -155,5 +169,5 @@ export const projects = [
         title: "IGO",
         desc: "Website for a Two-Wheeler Bike Service like Rapido",
         liveView: "https://rishavsaha1997.github.io/igo/",
-    },    
+    },
 ]
