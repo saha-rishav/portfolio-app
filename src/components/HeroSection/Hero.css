@@ -170,6 +170,7 @@
         width: 2.5rem;
         height: 2.5rem;
     }
+    
 }
 
 @media(max-width: 768px) {
@@ -221,7 +222,13 @@
     }
 
     .gitProfileBtn {
+        width: 160px;
         margin: 20px auto 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .gitProfileBtn h3 {
+        font-size: 14px;
     }
 }
 
