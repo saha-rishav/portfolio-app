@@ -118,13 +118,13 @@ export const projects = [
         image: WeatherApp,
         title: "Weather App",
         desc: "ipsum",
-        liveView: "https://trinity.ratepersqft.com/",
+        liveView: "https://weather-app-rouge-phi.vercel.app/",
     },
     {
         image: Portfolio,
         title: "Portfolio 2",
         desc: "Personal portfolio website using React JS",
-        liveView: "",
+        liveView: "https://rishavsaha.netlify.app/",
     },
     {
         image: Trinity,
@@ -142,18 +142,18 @@ export const projects = [
         image: AssamBengal,
         title: "Assam bengal Catering",
         desc: "Website for a Catering Service Provider in Guwahati",
-        liveView: "",
+        liveView: "https://assambengalcatering.com/",
     },
     {
         image: InfraSmartz,
         title: "Infrasmartz",
         desc: "Website for a Company based in USA that basically provides IT Support.",
-        liveView: "",
+        liveView: "http://infrasmartz.com/",
     },
     {
         image: IGO,
         title: "IGO",
         desc: "Website for a Two-Wheeler Bike Service like Rapido",
-        liveView: "",
+        liveView: "https://rishavsaha1997.github.io/igo/",
     },    
 ]
