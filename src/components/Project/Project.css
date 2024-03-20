@@ -71,6 +71,28 @@
     outline: 1px solid #a993fe;
 }
 
+.loadMoreBtnContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadMoreBtn {
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    border: 1px solid #a993fe;
+    background: #000;;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+.loadMoreBtn:hover {
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+}
+
 @media(max-width : 1025px) {
     .projects {
         grid-template-columns: repeat(2, 1fr);

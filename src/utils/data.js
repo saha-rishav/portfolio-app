@@ -129,17 +129,17 @@ export const projects = [
         liveView: "https://trinity.ratepersqft.com/",
     },
     {
-        image: WeatherApp,
-        title: "Weather App",
-        desc: "Live Weather checking web-application",
-        liveView: "https://weather-app-rouge-phi.vercel.app/",
-    },
-    {
         image: Portfolio,
         title: "Portfolio 2",
         desc: "Multiple Page portfolio website",
         liveView: "https://rishavsaha.netlify.app/",
     },
+    {
+        image: WeatherApp,
+        title: "Weather App",
+        desc: "Live Weather checking web-application",
+        liveView: "https://weather-app-rouge-phi.vercel.app/",
+    },    
     {
         image: Edubin,
         title: "EDUBIN",
