@@ -158,10 +158,6 @@
         line-height: 1.6rem;
     }
 
-    .heroImg>div>img {
-        width: 20rem;
-    }
-
     .techIcon {
         width: 4rem;
         height: 4rem;
@@ -253,7 +249,7 @@
     }
 
     .heroImg>div>img {
-        width: 16rem;
+        width: 18rem;
     }
 
     .techIcon {
@@ -264,5 +260,11 @@
     .techIcon img {
         width: 2rem;
         height: 2rem;
+    }
+}
+
+@media(max-width : 367.98px){
+    .heroImg>div>img {
+        width: 14rem;
     }
 }

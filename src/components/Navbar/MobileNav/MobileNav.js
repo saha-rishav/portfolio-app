@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './MobileNav.css'
+import resume from '../../../assets/resume/RishavSaha.pdf'
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
     return (
@@ -28,7 +29,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                         <li>
                             <a href='#contact' className='menu_item'>Contact Me</a>
                         </li>
-                        <button className="contactBtn" onClick={() => { }}>Resume</button>
+                        <a href={resume} target='_blank' rel="noreferrer" className="contactBtn" >Resume</a>
                     </ul>
                 </div>
             </div>

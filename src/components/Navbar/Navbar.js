@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import MobileNav from './MobileNav/MobileNav';
 import { FaTimes, FaBars, FaSun, FaMoon } from "react-icons/fa";
+import resume from '../../assets/resume/RishavSaha.pdf'
 
 const Navbar = ({ toggleTheme, theme }) => {
 
@@ -35,8 +36,8 @@ const Navbar = ({ toggleTheme, theme }) => {
                         <li>
                             <a href='#contact' className='menu_item'>Contact Me</a>
                         </li>
-                        <button className="contactBtn" onClick={() => { }}>Resume</button>
-                        <button className='theme_btn' onClick={toggleTheme}>
+                        <a href={resume} target='_blank' rel="noreferrer" className="contactBtn" >Resume</a>
+                        <button type='button' className='theme_btn' onClick={toggleTheme}>
                             {theme === 'light' ?
                                 (
                                     <FaMoon size={20} style={{ color: "orange" }} />
@@ -47,7 +48,7 @@ const Navbar = ({ toggleTheme, theme }) => {
                         </button>
                     </ul>
                     <div className="mobileNavBtn">
-                        <button className='theme_btn mobileTheme' onClick={toggleTheme}>
+                        <button type='button' className='theme_btn mobileTheme' onClick={toggleTheme}>
                             <span style={{ fontSize: "1.8rem" }}>
                                 {theme === 'light' ?
                                     (
@@ -58,7 +59,7 @@ const Navbar = ({ toggleTheme, theme }) => {
                                 }
                             </span>
                         </button>
-                        <button className="menuBtn" onClick={toggleMenu}>
+                        <button type='button' className="menuBtn" onClick={toggleMenu}>
                             <span
                                 className={"material-symbols-outlined"} style={{ fontSize: "1.8rem" }}>{openMenu ? (
                                     <FaTimes size={20} style={{ color: "white" }} />
