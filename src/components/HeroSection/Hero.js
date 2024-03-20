@@ -27,7 +27,7 @@ const Hero = () => {
                         </TypewriterComponent>
                     </span>
                 </h4>
-                <p>With over 2+ years of experience in designing, developing, and maintaining frontend web applications using modern frameworks like <b>React JS</b>, I am actively seeking new opportunities and challenges to further expand my skill set.</p>
+                <p>With over 2+ years of experience in designing, developing, and maintaining frontend web applications using modern frameworks like <b>React JS</b>. Passionate about pushing boundaries and creating impactful digital experiences that captivate and inspire.</p>
                 <a href="https://github.com/saha-rishav" target='_blank' className='gitProfileBtn'>
                     <img src={githubIcon} alt="" />
                     <h3>Github Profile</h3>

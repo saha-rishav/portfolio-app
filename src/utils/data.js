@@ -11,7 +11,7 @@ import GithubIcon from '../assets/github.png'
 import GitIcon from '../assets/git.png'
 import SublimeIcon from '../assets/sublime.png'
 import SCSSIcon from '../assets/scss.png'
-import SkypeIcon from '../assets/skype.png'
+// import SkypeIcon from '../assets/skype.png'
 
 import Sunsecurity from '../assets/project_image/sunsecuritypng.png'
 import AssamBengal from '../assets/project_image/assambengal.png'
@@ -84,10 +84,10 @@ export const skills = [
                 name: "Sublime",
                 image: SublimeIcon
             },
-            {
-                name: "Skype",
-                image: SkypeIcon
-            },
+            // {
+            //     name: "Skype",
+            //     image: SkypeIcon
+            // },
         ]
     }
 ]
@@ -148,7 +148,7 @@ export const projects = [
     },
     {
         image: Sunsecurity,
-        title: "Security Security Sevices",
+        title: "Sun Security Sevices",
         desc: "Website for a security service agency in Guwahati",
         liveView: "https://sunsecurityservices.org/",
     },
