@@ -74,8 +74,10 @@
 
 .heroImg>div>img {
     width: 20rem;
-    border-radius: 3rem;
+    border-radius: 50%;
+    /* border-radius: 3rem; */
     transition: all 0.3s ease;
+    object-fit: cover;
 }
 
 .techIcon {

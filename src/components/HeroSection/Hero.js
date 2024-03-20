@@ -6,7 +6,8 @@ import ReactImg from '../../assets/React.png';
 import HTMLImg from '../../assets/HTML.png'
 import CSSImg from '../../assets/CSS.png'
 import JSImg from '../../assets/JavaScript.png'
-import heroImg from '../../assets/heroImg.jpg'
+// import heroImg from '../../assets/heroImg.jpg'
+import heroImg2 from '../../assets/heroImg2.jpg'
 import githubIcon from '../../assets/github.png'
 import TypewriterComponent from 'typewriter-effect';
 
@@ -38,7 +39,7 @@ const Hero = () => {
                     <div className="techIcon">
                         <img src={ReactImg} alt={ReactImg} />
                     </div>
-                    <img src={heroImg} alt={heroImg} />
+                    <img src={heroImg2} alt={heroImg2} />
                 </div>
                 <div>
                     <div className="techIcon">
