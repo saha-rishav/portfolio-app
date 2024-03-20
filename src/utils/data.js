@@ -119,13 +119,13 @@ export const projects = [
     {
         image: Ratepersqft,
         title: "RateperSQFT",
-        desc: "",
+        desc: "A Real-estate Consultancy Firm in Guwahati, RateperSQFT focuses on selling, renting, purchasing, and leasing commercial, residential, and industrial real estate.",
         liveView: "https://ratepersqft.com",
     },
     {
         image: Trinity,
         title: "Trinity Business Park",
-        desc: "ipsum",
+        desc: "Trinity Business Park is the first of its kind and the largest commercial hub in Northeast India, offering state-of-the-art amenities and a strategic location",
         liveView: "https://trinity.ratepersqft.com/",
     },
     {
@@ -143,7 +143,7 @@ export const projects = [
     {
         image: Edubin,
         title: "EDUBIN",
-        desc: "ipsum",
+        desc: "Discover culinary excellence with Edubin's live online cooking classes led by renowned chefs.",
         liveView: "https://edubin-mu.vercel.app/",
     },
     {

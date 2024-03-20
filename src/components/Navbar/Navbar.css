@@ -25,9 +25,20 @@
     text-decoration: none;
 }
 
+.theme_btn {
+    padding: 0.6rem 0.9rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav_content h1 {
     font-size: 2rem;
-    color: #fff;
+    color: var(--text-primary);
 }
 
 .nav_content ul {
@@ -45,7 +56,7 @@
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 500;
-    color: #fff;
+    color: var(--text-primary);
     position: relative;
     cursor: pointer;
 }
@@ -91,6 +102,10 @@
     outline: 1.5px solid #a993fe;
 }
 
+.mobileNavBtn {
+    display: none;
+}
+
 .menuBtn {
     width: 2.5rem;
     height: 2.5rem;
@@ -118,13 +133,20 @@
         padding: 0 2rem;
     }
 }
-@media(max-width : 1299px){
+
+@media(max-width : 1299px) {
     .nav_content li {
         margin: 0 1.2rem;
     }
 }
 
-@media(max-width: 954px) {
+@media(max-width: 964px) {
+    .mobileNavBtn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .menuBtn {
         display: block;
     }
@@ -135,6 +157,9 @@
 }
 
 @media(max-width: 425px) {
+    .nav_wrapper {
+        padding: 0 1.1rem;
+    }
     .logo {
         width: 10rem;
         height: auto;

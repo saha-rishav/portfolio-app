@@ -11,6 +11,7 @@ import githubIcon from '../../assets/github.png'
 import TypewriterComponent from 'typewriter-effect';
 
 const Hero = () => {
+    
     return (
         <section className='heroContainer' id='home'>
             <div className="heroContent">
@@ -27,12 +28,10 @@ const Hero = () => {
                     </span>
                 </h4>
                 <p>With over 2+ years of experience in designing, developing, and maintaining frontend web applications using modern frameworks like <b>React JS</b>, I am actively seeking new opportunities and challenges to further expand my skill set.</p>
-                {/* <p>Passionate Frontend Developer | Transforming Ideas into Seamless & Visually Stunning Web Solutions</p> */}
                 <a href="https://github.com/saha-rishav" target='_blank' className='gitProfileBtn'>
                     <img src={githubIcon} alt="" />
                     <h3>Github Profile</h3>
                 </a>
-
             </div>
             <div className="heroImg">
                 <div>

@@ -9,7 +9,7 @@
     width: 28rem;
     height: 28rem;
     border-radius: 28.125rem;
-    background: #7c66e3;
+    background: var(--hero-bg);
     position: absolute;
     z-index: -1;
     filter: blur(200px);
@@ -54,7 +54,8 @@
     border: 1.5px solid #6751b9;
     padding: 2.5rem;
     text-align: center;
-    background: rgba(22, 17, 47, 0.398);
+    background: var(--secondary-background);
+    box-shadow: var(--box-shadow);
     backdrop-filter: blurr(1rem);
     cursor: default;
     position: relative;
@@ -130,7 +131,7 @@
 
     .skillsContainer h5 {
         font-size: 1.3rem;
-        margin: 2rem 0;
+        margin-bottom: 2rem;
     }
 
     .skillsContainer::after,

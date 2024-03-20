@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #130f2a;
+    background: var(--contact-bg);
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
     padding: 1.5rem;
@@ -30,6 +30,10 @@
 .contactDetailsCard a{
     font-size: 1rem;
     font-weight: 500;
-    color: #fff;
+    color: var(--text-primary);
     text-decoration: none;
+}
+
+.contactDetailsCard a:hover{
+text-decoration: underline;
 }
