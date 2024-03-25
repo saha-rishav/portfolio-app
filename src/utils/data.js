@@ -22,6 +22,7 @@ import Portfolio from '../assets/project_image/portfolio.png'
 import Trinity from '../assets/project_image/trinity.png'
 import Edubin from '../assets/project_image/edubin.png'
 import Ratepersqft from '../assets/project_image/ratepersqft.png'
+import MovieImage from '../assets/project_image/movie-app.png'
 
 export const skills = [
     {
@@ -119,14 +120,20 @@ export const projects = [
     {
         image: Ratepersqft,
         title: "RateperSQFT",
-        desc: "A Real-estate Consultancy Firm in Guwahati, RateperSQFT focuses on selling, renting, purchasing, and leasing commercial, residential, and industrial real estate.",
+        desc: "Real-Estate Consulting website.",
         liveView: "https://ratepersqft.com",
     },
     {
         image: Trinity,
         title: "Trinity Business Park",
-        desc: "Trinity Business Park is the first of its kind and the largest commercial hub in Northeast India, offering state-of-the-art amenities and a strategic location",
+        desc: "Landing Page for Trintity Business Park",
         liveView: "https://trinity.ratepersqft.com/",
+    },
+    {
+        image: MovieImage,
+        title: "Movie App",
+        desc: "Recent trending movies & Tv Shows website",
+        liveView: "https://movie-app-nu-kohl.vercel.app/",
     },
     {
         image: Portfolio,
@@ -139,12 +146,24 @@ export const projects = [
         title: "Weather App",
         desc: "Live Weather checking web-application",
         liveView: "https://weather-app-rouge-phi.vercel.app/",
-    },    
+    },
     {
         image: Edubin,
         title: "EDUBIN",
         desc: "Discover culinary excellence with Edubin's live online cooking classes led by renowned chefs.",
         liveView: "https://edubin-mu.vercel.app/",
+    },
+    {
+        image: IGO,
+        title: "IGO",
+        desc: "Website for a Two-Wheeler Bike Service like Rapido",
+        liveView: "https://rishavsaha1997.github.io/igo/",
+    },
+    {
+        image: InfraSmartz,
+        title: "Infrasmartz",
+        desc: "Website for a Company based in USA that basically provides IT Support.",
+        liveView: "http://infrasmartz.com/",
     },
     {
         image: Sunsecurity,
@@ -157,17 +176,5 @@ export const projects = [
         title: "Assam bengal Catering",
         desc: "Website for a Catering Service Provider in Guwahati",
         liveView: "https://assambengalcatering.com/",
-    },
-    {
-        image: InfraSmartz,
-        title: "Infrasmartz",
-        desc: "Website for a Company based in USA that basically provides IT Support.",
-        liveView: "http://infrasmartz.com/",
-    },
-    {
-        image: IGO,
-        title: "IGO",
-        desc: "Website for a Two-Wheeler Bike Service like Rapido",
-        liveView: "https://rishavsaha1997.github.io/igo/",
     },
 ]
