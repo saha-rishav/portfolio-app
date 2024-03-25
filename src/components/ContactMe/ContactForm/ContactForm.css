@@ -52,6 +52,23 @@ form button:hover {
     margin-top: 5px;
 }
 
+.successMessage {
+    color: #4CAF50;
+    padding: 10px;
+    animation: fadeOut 5s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
 @media(max-width : 450px) {
     .nameContainer {
         flex-direction: column;
